@@ -171,7 +171,7 @@ AI: [Modify Button.tsx] [Sync doc]
 You: Button click not working
 
 AI:
-"[Read .ai/src/components/Button.md]
+"[Read .ai/src/components/Button.md to understand past agent thoughts, change history, and bug fixes]
 [Analyze code]
 
 📄 Bug Fix record:

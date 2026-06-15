@@ -109,7 +109,7 @@ AI:
 "I'll fix the Button click issue. Following documentation-first principle, I need to analyze and record the fix plan first.
 
 🔍 **Problem Analysis**
-[Read .ai/src/components/Button.md]
+[Read .ai/src/components/Button.md to understand past agent thoughts, change history, and bug fixes]
 [Read src/components/Button.tsx]
 
 📄 **Bug Fix Documentation Update**

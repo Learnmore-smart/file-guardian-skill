@@ -80,12 +80,13 @@ if doc file does NOT exist:
 - Read the doc completely
 - Note Purpose, Constraints, Dependencies
 - Note "NEVER Change" items
+- Read the **Agent Decisions / Thoughts**, **Bug Fixes**, and **Change History** sections to reconstruct the mental models, intentions, and historical context of previous agents. Do not proceed blindly without this context.
 
 **STEP 4: Update doc with plan**
-- Document WHAT you're about to do
-- Document WHY
-- For bug fixes: document bug cause and fix strategy
-- Add to Change History
+- Document WHAT you're about to do and WHY.
+- Record any new design decisions, trade-offs, or logic choices under **Agent Decisions / Thoughts** to pass your reasoning down to future agents.
+- For bug fixes: document bug cause, fix strategy, and potential regression risks based on historical context.
+- Add to Change History.
 
 **STEP 5: Present to user and get confirmation**
 ```
@@ -238,7 +239,7 @@ AI:
 "我来修复 Button 的点击问题。按照文档优先原则，我需要先分析并记录修复方案。
 
 🔍 **Problem Analysis**
-[Read .ai/src/components/Button.md]
+[Read .ai/src/components/Button.md to understand past agent thoughts, change history, and bug fixes]
 [Read src/components/Button.tsx]
 
 📄 **Bug Fix Documentation Update**
@@ -421,8 +422,12 @@ digraph file_guardian {
 
 ## Dependencies
 
-- **Internal:** `{./path}` — {why}
+- **Internal:** `{./path/to/file}` — {why}
 - **External:** `{package}` — {why}
+
+## Agent Decisions / Thoughts
+
+- **{DATE} {AUTHOR}:** {Record non-obvious reasoning, trade-offs, design choices, or mental models here to help future agents build upon this work without losing context.}
 
 ## Important Notes / NEVER Change
 

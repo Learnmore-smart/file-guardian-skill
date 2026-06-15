@@ -28,6 +28,10 @@
 - **Internal:** `{./path/to/file}` — {why}
 - **External:** `{package}` — {why}
 
+## Agent Decisions / Thoughts
+
+- **{DATE} {AUTHOR}:** {Record non-obvious reasoning, trade-offs, design choices, or mental models here to help future agents build upon this work without losing context.}
+
 ## Usage Example
 
 ```typescript
